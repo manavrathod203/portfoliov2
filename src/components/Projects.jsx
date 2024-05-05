@@ -7,7 +7,7 @@ function Projects() {
     {
       name: "Comment Compass",
       des: "A tool that helps creator find their next video idea based on comments from viewers on previous videos.  ",
-      img: "src/assets/images/comment_compass_thumbnail.png",
+      img: "../assets/images/comment_compass_thumbnail.png",
       techStack: ["Node","Express", "Python"," EJS", "Open AI API", "Tailwind CSS"],
       code: "https://github.com/manavrathod203/youtubeV3",
       live: "https://drive.google.com/file/d/1fg7Uod-6p086k19EDQxU89MWb6cQHxJ8/view",
