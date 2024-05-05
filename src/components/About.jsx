@@ -8,7 +8,7 @@ function About() {
         <h2 className="font-['Clash_Display']  text-4xl md:text-6xl xl:text-7xl whitespace-nowrap uppercase">About Me</h2>
         <div className="w-full flex flex-col md:flex-row items-start gap-8 xl:gap-16 mt-8">
           <div className="w-full lg:w-1/2 aspect-square rounded-lg md:rounded-2xl overflow-hidden ">
-            <img src="https://drive.google.com/file/d/1aivKCNr5KUA8IcmxtqVP-7aztgbPeePa/view?usp=drive_link" alt="" className="object-cover" />
+            <img src="/src/assets/images/manav_1.png" alt="" className="object-cover" />
           </div>
           <div className="w-full lg:w-1/2">
             <p className=" tracking-wide text-xl md:text-2xl xl:text-3xl  opacity-60">
