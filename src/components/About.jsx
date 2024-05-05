@@ -20,13 +20,14 @@ function About() {
             </p>
             <div className="flex items-center flex-wrap gap-4 mt-8">
               <a
-                href="#projects"
+                href="#contact"
                 className="text-[#e8e8e3] uppercase text-base lg:text-xl border-2 border-[#e8e8e3] rounded-full px-5 py-2 tracking-wide hover:bg-[#e8e8e3] hover:text-[#252422] transition-all ease-in-out duration-150"
               >
                 let's connect
               </a>
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1Ng7AQj0cxVbB4XY_7poSPdq7vYGgFMO3/view?usp=sharing"
+                target="_blank"
                 className="text-[#e8e8e3] uppercase text-base lg:text-xl border-2 border-[#e8e8e3] rounded-full px-5 py-2 tracking-wide flex items-center justify-center gap-2 hover:bg-[#e8e8e3] hover:text-[#252422] transition-all ease-in-out duration-150"
               >
                 Download resume <IoArrowUp className="rotate-[45deg]" />
