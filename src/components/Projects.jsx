@@ -8,7 +8,14 @@ function Projects() {
       name: "Comment Compass",
       des: "A tool that helps creator find their next video idea based on comments from viewers on previous videos.  ",
       img: "/images/comment_compass_thumbnail.png",
-      techStack: ["Node","Express", "Python"," EJS", "Open AI API", "Tailwind CSS"],
+      techStack: [
+        "Node",
+        "Express",
+        "Python",
+        " EJS",
+        "Open AI API",
+        "Tailwind CSS",
+      ],
       code: "https://github.com/manavrathod203/youtubeV3",
       live: "https://drive.google.com/file/d/1fg7Uod-6p086k19EDQxU89MWb6cQHxJ8/view",
       category: "unique ideas",
@@ -25,7 +32,7 @@ function Projects() {
     {
       name: "Pinterest Clone",
       des: "Developed a photo sharing app clone with functionalities such as authentication, upload post, view post by all other users",
-      techStack: ["Node.js", "Express.js","MongoDB","EJS","Tailwind CSS"],
+      techStack: ["Node.js", "Express.js", "MongoDB", "EJS", "Tailwind CSS"],
       img: "/images/pinterest_clone.png",
       code: "https://github.com/manavrathod203/pinterestv2",
       live: "https://drive.google.com/file/d/1gKxtu8D2SiHvI2xCCRzjPUwWiNMpGG_A/view?usp=sharing",
@@ -37,16 +44,21 @@ function Projects() {
       ...new Set(projects.map((item) => item.category)),
     ];
     setCategories(uniqueCategories);
-    console.log(categories);
+    // console.log(categories);
   };
 
   useEffect(() => {
     uniqueCategories();
   }, []);
   return (
-    <div id="projects" className="px-5 md:px-10 lg:px-20 xl:px-20 py-16 xl:py-28 text-[#252422] ">
+    <div
+      id="projects"
+      className="px-5 md:px-10 lg:px-20 xl:px-20 py-16 xl:py-28 text-[#252422] "
+    >
       <div className="mb-24">
-        <h2 className="font-['Clash_Display'] text-4xl md:text-6xl xl:text-7xl whitespace-nowrap uppercase">Projects</h2>
+        <h2 className="font-['Clash_Display'] text-4xl md:text-6xl xl:text-7xl whitespace-nowrap uppercase">
+          Projects
+        </h2>
         <div className="flex items-center justify-start flex-wrap gap-2 md:gap-4 mt-4">
           <button
             onClick={() => setSelect("all")}
@@ -73,7 +85,10 @@ function Projects() {
           {projects.map((item, index) => {
             if (select === "all" || select === item.category) {
               return (
-                <div key={index} className="bg-[#2524223a] p-2 rounded-xl md:rounded-3xl ">
+                <div
+                  key={index}
+                  className="bg-[#2524223a] p-2 rounded-xl md:rounded-3xl "
+                >
                   <div className="relative group rounded-lg md:rounded-2xl overflow-hidden">
                     <div className="w-full rounded-lg md:rounded-2xl overflow-hidden group-hover:blur-lg aspect-ratio-w-16 aspect-ratio-h-9">
                       <img
@@ -88,8 +103,13 @@ function Projects() {
                           {item.des}
                         </p>
                         <div className=" opacity-0 group-hover:opacity-100  transition-all duration-300 ease-in-out mt-4 flex items-center flex-wrap gap-3">
-                          {item.techStack.map((item,index)=>(
-                            <span className="tracking-wider text-sm px-2 py-1 text-black bg-white rounded-full">{item}</span>
+                          {item.techStack.map((item, index) => (
+                            <span
+                              key={index}
+                              className="tracking-wider text-sm px-2 py-1 text-black bg-white rounded-full"
+                            >
+                              {item}
+                            </span>
                           ))}
                         </div>
                       </div>
