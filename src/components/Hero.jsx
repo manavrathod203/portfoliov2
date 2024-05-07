@@ -1,15 +1,16 @@
 import React from "react";
-import { IoArrowUp } from "react-icons/io5";
-
+import { IoArrowUp} from "react-icons/io5";
+import { HiOutlineArrowDown } from "react-icons/hi";
+// -0.8 speed
 function Hero() {
   return (
     <div
-    data-scroll data-scroll-speed={-0.8}
+      data-scroll
+      data-scroll-speed={-0.8}
       id="#hero"
       className="bg-[#e8e8e3] w-full min-h-screen px-5 md:px-10 lg:px-20 xl:px-20 flex items-center z-[99]"
     >
       <div className="">
-        {/* <h1 className="font-['Clash_Display'] text-[#252422] text-[20vw] lg:text-[6vw] leading-[1.2]"></h1> */}
         <h1 className="font-['Clash_Display'] text-[#252422] text-[20vw]  md:text-[15vw] lg:text-[9vw] leading-[.9]">
           Manav Rathod
         </h1>
@@ -34,6 +35,12 @@ function Hero() {
           </a>
         </div>
       </div>
+
+
+
+      <p className="text-[#252422] leading-none px-5 md:px-10 lg:px-20 absolute bottom-0 left-0 w-full text-center mb-8 flex items-center justify-center opacity-75">
+        ( SCROLL FOR MORE <HiOutlineArrowDown  className="ml-2 text-sm"/> )
+      </p>
     </div>
   );
 }

@@ -1,44 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { IoArrowUp } from "react-icons/io5";
+import projects from "../data/Projects";
+
 function Projects() {
   const [categories, setCategories] = useState([]);
   const [select, setSelect] = useState("all");
-  const projects = [
-    {
-      name: "Comment Compass",
-      des: "A tool that helps creator find their next video idea based on comments from viewers on previous videos.  ",
-      img: "/images/comment_compass_thumbnail.png",
-      techStack: [
-        "Node",
-        "Express",
-        "Python",
-        " EJS",
-        "Open AI API",
-        "Tailwind CSS",
-      ],
-      code: "https://github.com/manavrathod203/youtubeV3",
-      live: "https://drive.google.com/file/d/1fg7Uod-6p086k19EDQxU89MWb6cQHxJ8/view",
-      category: "unique ideas",
-    },
-    {
-      name: "React Shopping Cart",
-      des: "Developed a shopping cart module with functionalities as Add to Cart, Remove from cart, Filter products based on categories.",
-      techStack: ["React.js", "Redux Toolkit", "Tailwind CSS"],
-      img: "/images/react_cart.png",
-      code: "https://github.com/manavrathod203/react-cart",
-      live: "https://react-cartv1.vercel.app/",
-      category: "Frontend",
-    },
-    {
-      name: "Pinterest Clone",
-      des: "Developed a photo sharing app clone with functionalities such as authentication, upload post, view post by all other users",
-      techStack: ["Node.js", "Express.js", "MongoDB", "EJS", "Tailwind CSS"],
-      img: "/images/pinterest_clone.png",
-      code: "https://github.com/manavrathod203/pinterestv2",
-      live: "https://drive.google.com/file/d/1gKxtu8D2SiHvI2xCCRzjPUwWiNMpGG_A/view?usp=sharing",
-      category: "full stack",
-    },
-  ];
+
   const uniqueCategories = () => {
     const uniqueCategories = [
       ...new Set(projects.map((item) => item.category)),
@@ -62,7 +29,7 @@ function Projects() {
         <div className="flex items-center justify-start flex-wrap gap-2 md:gap-4 mt-4">
           <button
             onClick={() => setSelect("all")}
-            className={`uppercase text-sm md:text-xl tracking-wider border-2 px-4 py-2 rounded-full border-[#252422] whitespace-nowrap  ${
+            className={`uppercase text-xs md:text-lg lg:text-xl tracking-wider border-2 px-3  md:px-4 py-2 rounded-full border-[#252422] whitespace-nowrap  ${
               select === "all" ? "bg-[#252422] text-[#e8e8e3]" : ""
             }`}
           >
@@ -72,7 +39,7 @@ function Projects() {
           {categories.map((item, index) => (
             <button
               key={index}
-              className={`uppercase text-sm md:text-xl tracking-wider border-2 px-4 py-2 rounded-full border-[#252422] whitespace-nowrap  ${
+              className={`uppercase text-xs md:text-lg lg:text-xl tracking-wider border-2 px-3  md:px-4 py-2 rounded-full border-[#252422] whitespace-nowrap  ${
                 select === item ? "bg-[#252422] text-[#e8e8e3]" : ""
               }`}
               onClick={() => setSelect(item)}
@@ -87,7 +54,7 @@ function Projects() {
               return (
                 <div
                   key={index}
-                  className="bg-[#2524223a] p-2 rounded-xl md:rounded-3xl "
+                  className="bg-[#2524223a] p-1 md:p-2 rounded-xl md:rounded-3xl "
                 >
                   <div className="relative group rounded-lg md:rounded-2xl overflow-hidden">
                     <div className="w-full rounded-lg md:rounded-2xl overflow-hidden group-hover:blur-lg aspect-ratio-w-16 aspect-ratio-h-9">
@@ -106,7 +73,7 @@ function Projects() {
                           {item.techStack.map((item, index) => (
                             <span
                               key={index}
-                              className="tracking-wider text-sm px-2 py-1 text-black bg-white rounded-full"
+                              className="tracking-wider text-sm px-2 py-1 text-black bg-white rounded-md"
                             >
                               {item}
                             </span>
