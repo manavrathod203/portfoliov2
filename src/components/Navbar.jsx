@@ -36,9 +36,11 @@ function Navbar() {
       >
         <div className="relative flex flex-col lg:flex-row lg:items-center justify-between ">
           <div className="flex items-center justify-between w-full lg:w-fit  z-[1000] px-5 md:px-10 lg:px-0 py-5 lg:py-0 bg-[#e8e8e3]">
-            <h2 className="font-['Clash_Display'] text-2xl md:text-3xl lg:text-4xl uppercase   ">
-              @MNVRTHD
-            </h2>
+            <a href="#hero" className="">
+              <h2 className="font-['Clash_Display'] text-2xl md:text-3xl lg:text-4xl uppercase   ">
+                @MNVRTHD
+              </h2>
+            </a>
             <button
               onClick={() => setMenuActive(!menuActive)}
               className="text-3xl lg:hidden focus:outline-none"
@@ -60,7 +62,7 @@ function Navbar() {
                   onClick={() => setMenuActive(false)}
                 >
                   {item}
-                  </a>
+                </a>
               ))}
 
               <a
@@ -110,7 +112,6 @@ function Navbar() {
                   <FaInstagram />
                 </a>
               </div>
-              
             </div>
           </div>
         </div>

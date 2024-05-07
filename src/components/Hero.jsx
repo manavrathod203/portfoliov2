@@ -10,7 +10,7 @@ function Hero() {
     <div
       data-scroll
       data-scroll-speed={-0.8}
-      id="#hero"
+      id="hero"
       className="bg-[#e8e8e3] w-full min-h-screen px-5 md:px-10 lg:px-20 xl:px-20 flex items-center z-[99]"
     >
       <div className="">

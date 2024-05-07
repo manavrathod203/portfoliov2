@@ -22,11 +22,11 @@ function About() {
           </div>
           <div className="w-full lg:w-[70vw]">
             <p className=" tracking-wider md:text-lg lg:text-xl xl:text-3xl font-[300]  opacity-60">
-              I'm Manav Rathod, a computer engineering student with a passion
+              A computer engineering student with a passion
               for web development. Throughout my academics and personal projects, I've
               tackled all my projects from scratch, learning what I needed along
               the way. This shows that I'm always open to learning and
-              improving. Now, I'm eager to put my skills to work on real-world
+              improving. I'm eager to put my skills to work on real-world
               projects and collaborate with a team. Let's create something
               amazing together! 💻🚀 Connect with me!
             </p>
