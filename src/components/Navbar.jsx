@@ -74,19 +74,19 @@ function Navbar() {
               <div className="lg:hidden flex items-center gap-4 text-[#252422] text-xl md:text-3xl lg:text-4xl ">
                 <a
                   href="mailto:manavrathod203@gmail.com"
-                  className="p-3 rounded-full border border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
+                  className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
                 >
                   <MdOutlineEmail />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/manavrathod203/"
-                  className="p-3 rounded-full border border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
+                  className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
                 >
                   <FaLinkedinIn />
                 </a>
                 <a
                   href="https://github.com/manavrathod203"
-                  className="p-3 rounded-full border border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
+                  className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
                 >
                   <FaGithub />
                 </a>
@@ -104,7 +104,7 @@ function Navbar() {
           </a> */}
                 <a
                   href="https://www.instagram.com/manavrathodd/"
-                  className="p-3 rounded-full border border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
+                  className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
                 >
                   <FaInstagram />
                 </a>

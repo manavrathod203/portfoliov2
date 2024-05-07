@@ -15,19 +15,19 @@ function Footer() {
         <div className="flex items-center gap-4 text-[#e8e8e3] text-xl md:text-3xl lg:text-4xl ">
           <a
             href="mailto:manavrathod203@gmail.com"
-            className="p-3 rounded-full border border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
+            className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <MdOutlineEmail />
           </a>
           <a
             href="https://www.linkedin.com/in/manavrathod203/"
-            className="p-3 rounded-full border border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
+            className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <FaLinkedinIn />
           </a>
           <a
             href="https://github.com/manavrathod203"
-            className="p-3 rounded-full border border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
+            className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <FaGithub />
           </a>
@@ -45,7 +45,7 @@ function Footer() {
           </a> */}
           <a
             href="https://www.instagram.com/manavrathodd/"
-            className="p-3 rounded-full border border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
+            className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <FaInstagram />
           </a>

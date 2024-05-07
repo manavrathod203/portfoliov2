@@ -98,6 +98,13 @@ function Contact() {
                 placeholder="your email address"
                 required
               />
+              <input
+                type="text"
+                name="subject"
+                className="text-xl rounded-md px-3 py-2 border-2 border-[#ccc5b9] focus:outline-none w-full"
+                placeholder="subject"
+                required
+              />
               <textarea
                 name="message"
                 className="text-xl rounded-md px-3 py-2 border-2 border-[#ccc5b9] focus:outline-none h-56 w-full"
