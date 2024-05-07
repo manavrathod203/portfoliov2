@@ -52,6 +52,7 @@ function Projects() {
           {projects.map((item, index) => {
             if (select === "all" || select === item.category) {
               return (
+                // project card
                 <div
                   key={index}
                   className="bg-[#2524223a] p-1 md:p-2 rounded-xl md:rounded-3xl "
@@ -66,7 +67,7 @@ function Projects() {
                     </div>
                     <div className="p-5 overflow-hidden rounded-lg md:rounded-2xl text-white flex flex-col items-start justify-end  md:justify-between w-full h-full aspect-ratio-w-16 aspect-ratio-h-9 bg-[#22212100]  absolute top-0  group-hover:bg-[#000000b9]  transition-all duration-300 ease-in-out">
                       <div className="hidden md:block">
-                        <p className="tracking-wider opacity-0 group-hover:opacity-100 text-lg transition-all duration-300 ease-in-out border-b pb-4 border-opacity-30">
+                        <p className="tracking-wider font-[300] opacity-0 group-hover:opacity-100 text-lg transition-all duration-300 ease-in-out border-b pb-4 border-opacity-30">
                           {item.des}
                         </p>
                         <div className=" opacity-0 group-hover:opacity-100  transition-all duration-300 ease-in-out mt-4 flex items-center flex-wrap gap-3">

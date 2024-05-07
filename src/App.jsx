@@ -25,7 +25,7 @@ function App() {
 
       <Navbar />
       <Hero />
-      <div data-scroll data-scroll-section data-scroll-speed={0.2}>
+      <div data-scroll data-scroll-section data-scroll-speed={0.05}>
         <Skills />
         <Projects />
         <About />

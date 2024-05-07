@@ -56,11 +56,11 @@ function Navbar() {
                 <a
                   key={index}
                   href={`#${item}`}
-                  className="uppercase text-4xl lg:text-base xl:text-xl"
+                  className="uppercase text-4xl lg:text-base xl:text-xl "
                   onClick={() => setMenuActive(false)}
                 >
                   {item}
-                </a>
+                  </a>
               ))}
 
               <a
@@ -71,6 +71,7 @@ function Navbar() {
                 Download resume <IoArrowUp className="rotate-[45deg]" />
               </a>
 
+              {/* social links */}
               <div className="lg:hidden flex items-center gap-4 text-[#252422] text-xl md:text-3xl lg:text-4xl ">
                 <a
                   href="mailto:manavrathod203@gmail.com"
@@ -109,6 +110,7 @@ function Navbar() {
                   <FaInstagram />
                 </a>
               </div>
+              
             </div>
           </div>
         </div>

@@ -34,10 +34,10 @@ function Skills() {
         <h2 className="font-['Clash_Display']  text-4xl md:text-6xl xl:text-7xl whitespace-nowrap uppercase">
           skillset
         </h2>
-        <p className="tracking-wide text-xl md:text-3xl  mt-4 opacity-60">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorem
-          numquam itaque quia inventore vel laudantium harum sint molestias,
-          totam cumque ipsum commodi quae eum aperiam similique saepe nemo est.
+        <p className="tracking-wide text-xl md:text-3xl  mt-4 opacity-60 font-[300]">
+          These are some of the skills I excel at and primarily utilize during
+          development. I've learned these skills through hands-on implementation
+          and developing relevant projects.
         </p>
       </div>
       <div className="w-full flex flex-col border-t-[1px]">
