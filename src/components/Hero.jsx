@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 // -0.8 speed
-function Hero() {
+function Hero({links}) {
   return (
     <div
       data-scroll
@@ -30,7 +30,7 @@ function Hero() {
             Projects
           </a>
           <a
-            href="https://drive.google.com/file/d/1Ng7AQj0cxVbB4XY_7poSPdq7vYGgFMO3/view?usp=sharing"
+            href={links.resume}
             target="_blank"
             className="text-[#252422] uppercase whitespace-nowrap  border-2 border-[#252422] rounded-full px-5 py-2 tracking-wide flex items-center justify-center gap-2 hover:bg-[#252422] hover:text-[#E8E8E3] transition-all ease-in-out duration-150"
           >
@@ -41,21 +41,21 @@ function Hero() {
         <div className="flex items-center gap-4 text-[#252422] text-xl md:text-2xl lg:text-2xl mt-4 ">
           <a
             target="_blank"
-            href="mailto:manavrathod203@gmail.com"
+            href={`mailto:${links.email}`}
             className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
           >
             <MdOutlineEmail />
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/manavrathod203/"
+            href={links.linkedin}
             className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
           >
             <FaLinkedinIn />
           </a>
           <a
             target="_blank"
-            href="https://github.com/manavrathod203"
+            href={links.github}
             className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
           >
             <FaGithub />
@@ -76,7 +76,7 @@ function Hero() {
           </a> */}
           <a
             target="_blank"
-            href="https://www.instagram.com/manavrathodd/"
+            href={links.instagram}
             className="p-3 rounded-full border-2 border-[#252422] transition-all ease-in-out duration-300 hover:bg-[#252422] hover:text-[#e8e8e3]"
           >
             <FaInstagram />

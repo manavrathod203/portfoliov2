@@ -8,6 +8,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 import toast, { Toaster } from "react-hot-toast";
+import links from "./data/Links";
+
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -24,14 +26,14 @@ function App() {
       />
 
       <Navbar />
-      <Hero />
+      <Hero links={links} />
       <div data-scroll data-scroll-section data-scroll-speed={0.05}>
         <Skills />
         <Projects />
-        <About />
+        <About links={links} />
         <Contact />
       </div>
-      <Footer />
+      <Footer links={links} />
     </div>
   );
 }

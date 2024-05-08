@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedinIn, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
-function Footer() {
+function Footer({links}) {
   return (
     <div
       id="footer"
@@ -15,21 +15,21 @@ function Footer() {
         <div className="flex items-center gap-4 text-[#e8e8e3] text-xl md:text-3xl lg:text-4xl ">
           <a
             target="_blank"
-            href="mailto:manavrathod203@gmail.com"
+            href={`mailto:${links.email}`}
             className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <MdOutlineEmail />
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/manavrathod203/"
+            href={links.linkedin}
             className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <FaLinkedinIn />
           </a>
           <a
             target="_blank"
-            href="https://github.com/manavrathod203"
+            href={links.github}
             className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <FaGithub />
@@ -50,7 +50,7 @@ function Footer() {
           </a> */}
           <a
             target="_blank"
-            href="https://www.instagram.com/manavrathodd/"
+            href={links.instagram}
             className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
           >
             <FaInstagram />

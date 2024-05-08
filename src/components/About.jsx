@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
-function About() {
+function About({links}) {
   return (
     <div
       id="about"
@@ -38,7 +38,7 @@ function About() {
                 let's connect
               </a>
               <a
-                href="https://drive.google.com/file/d/1Ng7AQj0cxVbB4XY_7poSPdq7vYGgFMO3/view?usp=sharing"
+                href={links.resume}
                 target="_blank"
                 className="text-[#e8e8e3] uppercase text-base lg:text-xl border-2 border-[#e8e8e3] rounded-full px-5 py-2 tracking-wide flex items-center justify-center gap-2 hover:bg-[#e8e8e3] hover:text-[#252422] transition-all ease-in-out duration-150"
               >
@@ -50,21 +50,21 @@ function About() {
             <div className="flex items-center gap-4 text-[#e8e8e3] text-xl md:text-2xl lg:text-2xl mt-6">
               <a
                 target="_blank"
-                href="mailto:manavrathod203@gmail.com"
+                href={`mailto:${links.email}`}
                 className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
               >
                 <MdOutlineEmail />
               </a>
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/manavrathod203/"
+                href={links.linkedin}
                 className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
               >
                 <FaLinkedinIn />
               </a>
               <a
                 target="_blank"
-                href="https://github.com/manavrathod203"
+                href={links.github}
                 className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
               >
                 <FaGithub />
@@ -85,7 +85,7 @@ function About() {
           </a> */}
               <a
                 target="_blank"
-                href="https://www.instagram.com/manavrathodd/"
+                href={links.instagram}
                 className="p-3 rounded-full border-2 border-[#e8e8e3] transition-all ease-in-out duration-300 hover:bg-[#e8e8e3] hover:text-[#252422]"
               >
                 <FaInstagram />
