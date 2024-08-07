@@ -36,11 +36,11 @@ const projects = [
     },
     {
         name: "To-Do App",
-        des: "Developed a To-Do app with functionalities such as Add task, Remove task, Mark as complete with Browser's local Storage.",
+        des: "Developed a To-Do app with functionalities such as Add, Delete, Update and Mark as complete along with Browser's local Storage.",
         techStack: ["React.js", "Local Storage", "Tailwind CSS"],
         img: "/images/todo.png",
-        code: "https://github.com/manavrathod203/todo-app",
-        live: "https://todo-app-react03.netlify.app/",
+        code: "https://github.com/manavrathod203/editable-todo",
+        live: "https://editable-todo.onrender.com/",
         category: "react",
     },
     {
