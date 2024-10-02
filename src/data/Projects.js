@@ -13,7 +13,7 @@ const projects = [
             "Tailwind CSS",
         ],
         code: "https://github.com/manavrathod203/youtubeV3",
-        live: "https://drive.google.com/file/d/1fg7Uod-6p086k19EDQxU89MWb6cQHxJ8/view",
+        live: "https://drive.google.com/file/d/1gW-KFgk_WimoR9iSMxsQgtS970oRBtjl/view?usp=sharing",
         category: "tools",
     },
     {
