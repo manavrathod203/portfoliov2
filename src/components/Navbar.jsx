@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
-function Navbar() {
+function Navbar({links}) {
   const [menuActive, setMenuActive] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -66,7 +66,7 @@ function Navbar() {
               ))}
 
               <a
-                href="https://drive.google.com/file/d/1Ng7AQj0cxVbB4XY_7poSPdq7vYGgFMO3/view?usp=sharing"
+                href={links.resume}
                 target="_blank"
                 className="text-[#252422]  lg:hidden uppercase whitespace-nowrap text-xl border-2 border-[#252422] rounded-full px-5 py-2 tracking-wide flex items-center justify-center gap-2 hover:bg-[#252422] hover:text-[#E8E8E3] transition-all ease-in-out duration-150"
               >

@@ -25,7 +25,7 @@ function App() {
         }}
       />
 
-      <Navbar />
+      <Navbar links={links} />
       <Hero links={links} />
       <div data-scroll data-scroll-section data-scroll-speed={0.05}>
         <Skills />
