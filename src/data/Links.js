@@ -1,5 +1,5 @@
 const links = {
-    resume:'https://drive.google.com/file/d/1SwKx1WDozXt7Zcfsvwt0F5kqS1ZS-fgU/view?usp=sharing',
+    resume:'https://drive.google.com/file/d/1QGVIqo6wuIb_SqhUqC2cFusjl4dsEkx5/view?usp=sharing',
     email:'manavrathod203@gmail.com',
     linkedin:'https://www.linkedin.com/in/manavrathod203/',
     github:'https://github.com/manavrathod203',

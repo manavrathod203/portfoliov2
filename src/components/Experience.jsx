@@ -29,6 +29,27 @@ function Experience() {
             </p>
           </div>
         </li>
+        {/* Second item */}
+        <li>
+          <div className="flex-start flex items-center pt-3">
+            <div className="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-neutral-300 " />
+            <p className="text-base opacity-75 tracking-wide uppercase">
+              June 2024 - July 2024
+            </p>
+          </div>
+          <div className="mb-6 ms-4 mt-2">
+            <h4 className="mb-1.5 text-xl md:text-2xl tracking-wider font-semibold">
+              Frontend Developer Intern
+            </h4>
+            <h5 className="mb-1.5 text-lg italic tracking-wider ">
+            Aptech Ltd.
+            </h5>
+            <p className="mb-10 md:text-xl opacity-65 tracking-wide w-full lg:w-[80%] font-thin">
+            Developed responsive dashboard interfaces for company projects using React.js, Redux Toolkit, Chart.js, Tailwind CSS, 
+            and JavaScript. Utilized various AI tools and UI component libraries to write clean and efficient code.{" "}
+            </p>
+          </div>
+        </li>
       </ol>
       {/* timeline  end*/}
     </div>

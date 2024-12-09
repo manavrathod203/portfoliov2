@@ -1,5 +1,20 @@
 const projects = [
     {
+        name: "Product Finder AI",
+        des: "A tool that simplifies the shopping process by allowing users to search for products based on needs rather than specific product names.  ",
+        img: "/images/product_finder_ai.png",
+        techStack: [
+            "React.js",
+            "Node",
+            "Express",
+            "Open AI API",
+            "Tailwind CSS",
+        ],
+        code: "https://github.com/manavrathod203/productV2",
+        live: "https://drive.google.com/file/d/1veMYfL7y2dMm_zkYiOTLIzSdJMV10jVu/view",
+        category: "best work",
+    },
+    {
         name: "Comment Compass",
         des: "A tool that helps creator find their next video idea based on comments from viewers on previous videos.  ",
         img: "/images/comment_compass_thumbnail.png",
@@ -14,7 +29,7 @@ const projects = [
         ],
         code: "https://github.com/manavrathod203/youtubeV3",
         live: "https://drive.google.com/file/d/1gW-KFgk_WimoR9iSMxsQgtS970oRBtjl/view?usp=sharing",
-        category: "tools",
+        category: "best work",
     },
     {
         name: "React Shopping Cart",
@@ -42,43 +57,7 @@ const projects = [
         code: "https://github.com/manavrathod203/editable-todo",
         live: "https://editable-todo.onrender.com/",
         category: "react",
-    },
-    {
-        name: "Sundown website",
-        des: "Created a mocked version of sundown website implementing beautiful animations and parallax scrolling effect.",
-        techStack: ["HTML", "CSS", "JavaScript","Locomotive JS"],
-        img: "/images/sundown.png",
-        code: "https://github.com/manavrathod203/sundown",
-        live: "https://manavrathod203.github.io/sundown/",
-        category: "frontend",
-    },
-    {
-        name: "Weather App",
-        des: "Developed a Weather app that gives weather info based on cities including forecast and other parameters.",
-        techStack: ["HTML", "Tailwind CSS", "JavaScript","Open Weather API"],
-        img: "/images/weather.png",
-        code: "https://github.com/manavrathod203/weather_app",
-        live: "https://manavrathod203.github.io/weather_app/",
-        category: "javascript",
-    },
-    {
-        name: "RentSpace landing page",
-        des: "Landing page design for a property listing website.",
-        techStack: ["HTML", "CSS"],
-        img: "/images/property_renting_ui.png",
-        code: "https://github.com/manavrathod203/rentspace",
-        live: "https://manavrathod203.github.io/rentspace/",
-        category: "frontend",
-    },
-    {
-        name: "Memory Game",
-        des: "Developed a Memory game where you need to match cards in a given time limit with minimum number of flips.",
-        techStack: ["HTML", "CSS", "JavaScript"],
-        img: "/images/memory_game.png",
-        code: "https://github.com/manavrathod203/Memory-game",
-        live: "https://manavrathod203.github.io/Memory-game/",
-        category: "javascript",
-    },
+    }
 ];
 
 export default projects
